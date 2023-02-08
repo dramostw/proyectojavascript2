@@ -1,0 +1,101 @@
+
+header{
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+    z-index: 1;
+    padding: 10px;
+    background-color: $color-cuarto;
+    font-family: "letra1";
+}
+
+
+
+.container__menu{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:baseline;
+    
+
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-right: 5%;
+}
+
+.menu ul li a{
+    display: flex;
+    flex-direction: row;
+    color: $color-sexto;
+    text-decoration: none;
+    font-size: 16px;
+    background-image: linear-gradient($color-cuarto, $color-quinto);
+    text-transform: none;
+}
+
+#selected{
+    background: $color-quinto;
+    padding: 5px 20px;
+    
+}
+
+.menu nav img{
+    display: none;
+}
+
+.menu #btn_menu{
+    display: none;
+}
+
+}
+
+
+
+/*COVER*/
+
+
+.container__cover{
+    width: -10%;
+    height: 0%;
+    margin-top: 10%;
+    background-image: linear-gradient($color-sexto, $color-primario);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 10px;
+     
+    .cover{
+        max-width:90%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .container__cover .text{
+        max-width: 400px;
+    }
+    
+    .container__cover .text h1{
+        font-size: 36px;
+        font-weight: 600px;
+    }
+    
+    .container__cover .text p{
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    
+   
+    
+}

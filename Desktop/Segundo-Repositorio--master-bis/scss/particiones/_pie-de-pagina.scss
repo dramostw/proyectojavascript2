@@ -1,0 +1,20 @@
+.pie-de-pagina{
+    background-color: $color-cuarto;
+    font-size: 'Source Sans Pro', sans-serif;
+    
+    .pie-de-pagina h4{
+        font-size: 1.3rem;
+        grid-area: contactos;
+    }
+    
+    .pie-de-pagina h2{
+        grid-area: copy;
+    }
+    
+    .bg-propio3{
+        transform: translate(-70%, 0%);
+    }
+   
+
+    
+}
